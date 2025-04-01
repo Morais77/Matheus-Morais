@@ -1,0 +1,60 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d; /* Cinza escuro para um tom mais selvagem */
+    color: #e0e0e0; /* Cinza claro para contraste */
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #4a4a4a; /* Tom de cinza forte, remetendo à pele do gorila */
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f4f4f4; /* Branco para destaque */
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+/* Imagem */
+.imagem {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Título */
+.titulo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #6b6b6b; /* Cinza médio para harmonia visual */
+    text-transform: uppercase;
+}
+
+/* Frase */
+.frase {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #d9d9d9; /* Cinza mais claro para contraste suave */
+    margin-top: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+    .frase {
+        font-size: 1em;
+    }
+}
